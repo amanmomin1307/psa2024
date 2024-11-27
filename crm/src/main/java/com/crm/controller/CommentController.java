@@ -30,6 +30,7 @@ public class CommentController {
        commentRepository.save(comment);
 
        return "Comment created successfully";
+        System.out.println("Aman");
     }
 
 }
